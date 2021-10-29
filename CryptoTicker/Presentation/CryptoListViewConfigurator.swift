@@ -8,8 +8,9 @@
 import Foundation
 
 final class CryptoListViewConfigurator {
-    public static func configureCryptoListView(with viewModel: CryptoViewModel = CryptoViewModel) -> MainView {
-        
+    public static func configureCryptoListView(with viewModel: CryptoViewModel = CryptoViewModel()) -> MainView {
+        let mainView = MainView(viewModel: viewModel)
+        return mainView
     }
     
 }

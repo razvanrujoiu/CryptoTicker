@@ -11,7 +11,7 @@ import SwiftUI
 struct CryptoTickerApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView(viewModel: <#CryptoViewModel#>)
+            CryptoListViewConfigurator.configureCryptoListView()
         }
     }
 }
