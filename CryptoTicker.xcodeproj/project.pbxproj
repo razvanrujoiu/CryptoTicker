@@ -11,6 +11,14 @@
 		E385D225272BE1C00066B3F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D224272BE1C00066B3F1 /* ContentView.swift */; };
 		E385D227272BE1C40066B3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E385D226272BE1C40066B3F1 /* Assets.xcassets */; };
 		E385D22A272BE1C40066B3F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E385D229272BE1C40066B3F1 /* Preview Assets.xcassets */; };
+		E385D231272BF1250066B3F1 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D230272BF1250066B3F1 /* Endpoint.swift */; };
+		E385D235272BF1A30066B3F1 /* NetworkerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D234272BF1A30066B3F1 /* NetworkerProtocol.swift */; };
+		E385D237272BF3410066B3F1 /* Endpoint+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D236272BF3410066B3F1 /* Endpoint+URL.swift */; };
+		E385D239272BF4DB0066B3F1 /* Endpoint+CMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D238272BF4DB0066B3F1 /* Endpoint+CMC.swift */; };
+		E385D23D272BF6000066B3F1 /* CryptoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D23C272BF6000066B3F1 /* CryptoList.swift */; };
+		E385D23F272BF63F0066B3F1 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D23E272BF63F0066B3F1 /* Crypto.swift */; };
+		E385D244272BFDFB0066B3F1 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D243272BFDFB0066B3F1 /* CryptoService.swift */; };
+		E385D248272C03B10066B3F1 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D247272C03B10066B3F1 /* CryptoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		E385D224272BE1C00066B3F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E385D226272BE1C40066B3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E385D229272BE1C40066B3F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E385D230272BF1250066B3F1 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		E385D234272BF1A30066B3F1 /* NetworkerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkerProtocol.swift; sourceTree = "<group>"; };
+		E385D236272BF3410066B3F1 /* Endpoint+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+URL.swift"; sourceTree = "<group>"; };
+		E385D238272BF4DB0066B3F1 /* Endpoint+CMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+CMC.swift"; sourceTree = "<group>"; };
+		E385D23C272BF6000066B3F1 /* CryptoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoList.swift; sourceTree = "<group>"; };
+		E385D23E272BF63F0066B3F1 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		E385D243272BFDFB0066B3F1 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		E385D247272C03B10066B3F1 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,9 @@
 		E385D221272BE1C00066B3F1 /* CryptoTicker */ = {
 			isa = PBXGroup;
 			children = (
+				E385D240272BFD0C0066B3F1 /* Presentation */,
+				E385D23A272BF5CA0066B3F1 /* Business Logic */,
+				E385D232272BF1360066B3F1 /* Core */,
 				E385D222272BE1C00066B3F1 /* CryptoTickerApp.swift */,
 				E385D224272BE1C00066B3F1 /* ContentView.swift */,
 				E385D226272BE1C40066B3F1 /* Assets.xcassets */,
@@ -65,6 +84,83 @@
 				E385D229272BE1C40066B3F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E385D232272BF1360066B3F1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E385D233272BF13C0066B3F1 /* Networking */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E385D233272BF13C0066B3F1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E385D234272BF1A30066B3F1 /* NetworkerProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E385D23A272BF5CA0066B3F1 /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				E385D242272BFDB60066B3F1 /* Endpoints */,
+				E385D241272BFDAE0066B3F1 /* Services */,
+				E385D23B272BF5E00066B3F1 /* Models */,
+			);
+			path = "Business Logic";
+			sourceTree = "<group>";
+		};
+		E385D23B272BF5E00066B3F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E385D23C272BF6000066B3F1 /* CryptoList.swift */,
+				E385D23E272BF63F0066B3F1 /* Crypto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E385D240272BFD0C0066B3F1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E385D246272BFFE50066B3F1 /* Views */,
+				E385D245272BFFC30066B3F1 /* ViewModels */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E385D241272BFDAE0066B3F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E385D243272BFDFB0066B3F1 /* CryptoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E385D242272BFDB60066B3F1 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				E385D230272BF1250066B3F1 /* Endpoint.swift */,
+				E385D238272BF4DB0066B3F1 /* Endpoint+CMC.swift */,
+				E385D236272BF3410066B3F1 /* Endpoint+URL.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		E385D245272BFFC30066B3F1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E385D247272C03B10066B3F1 /* CryptoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E385D246272BFFE50066B3F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +233,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E385D23F272BF63F0066B3F1 /* Crypto.swift in Sources */,
+				E385D23D272BF6000066B3F1 /* CryptoList.swift in Sources */,
+				E385D237272BF3410066B3F1 /* Endpoint+URL.swift in Sources */,
 				E385D225272BE1C00066B3F1 /* ContentView.swift in Sources */,
+				E385D239272BF4DB0066B3F1 /* Endpoint+CMC.swift in Sources */,
+				E385D235272BF1A30066B3F1 /* NetworkerProtocol.swift in Sources */,
+				E385D231272BF1250066B3F1 /* Endpoint.swift in Sources */,
+				E385D244272BFDFB0066B3F1 /* CryptoService.swift in Sources */,
 				E385D223272BE1C00066B3F1 /* CryptoTickerApp.swift in Sources */,
+				E385D248272C03B10066B3F1 /* CryptoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
