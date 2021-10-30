@@ -20,6 +20,7 @@
 		E385D244272BFDFB0066B3F1 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D243272BFDFB0066B3F1 /* CryptoService.swift */; };
 		E385D248272C03B10066B3F1 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D247272C03B10066B3F1 /* CryptoViewModel.swift */; };
 		E385D24A272C156A0066B3F1 /* CryptoListViewConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D249272C156A0066B3F1 /* CryptoListViewConfigurator.swift */; };
+		E3C5A3D6272D471B00C447A5 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A3D5272D471B00C447A5 /* Double+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E385D243272BFDFB0066B3F1 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
 		E385D247272C03B10066B3F1 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
 		E385D249272C156A0066B3F1 /* CryptoListViewConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewConfigurator.swift; sourceTree = "<group>"; };
+		E3C5A3D5272D471B00C447A5 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		E385D221272BE1C00066B3F1 /* CryptoTicker */ = {
 			isa = PBXGroup;
 			children = (
+				E3C5A3D4272D46FD00C447A5 /* Extensions */,
 				E385D240272BFD0C0066B3F1 /* Presentation */,
 				E385D23A272BF5CA0066B3F1 /* Business Logic */,
 				E385D232272BF1360066B3F1 /* Core */,
@@ -166,6 +169,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		E3C5A3D4272D46FD00C447A5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3C5A3D5272D471B00C447A5 /* Double+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C5A3D6272D471B00C447A5 /* Double+Extensions.swift in Sources */,
 				E385D23F272BF63F0066B3F1 /* Crypto.swift in Sources */,
 				E385D23D272BF6000066B3F1 /* CryptoList.swift in Sources */,
 				E385D237272BF3410066B3F1 /* Endpoint+URL.swift in Sources */,
