@@ -10,7 +10,9 @@ import SwiftUI
 struct MainView: View {
     
     @ObservedObject var viewModel: CryptoViewModel
+    var phoneViewModel = PhoneViewModel()
     
+    @State var isWatchReachable = "No"
     
     var body: some View {
         List(viewModel.cryptoList.data) { crypto in
@@ -27,6 +29,9 @@ struct MainView: View {
             }
         }.onAppear {
             viewModel.onAppear()
+            self.phoneViewModel.session.sendMessage(["cryptoList" : viewModel.cryptoList], replyHandler: nil) { error in
+                print(error.localizedDescription)
+            }
         }
     }
 }

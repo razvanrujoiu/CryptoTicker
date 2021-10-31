@@ -21,7 +21,63 @@
 		E385D248272C03B10066B3F1 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D247272C03B10066B3F1 /* CryptoViewModel.swift */; };
 		E385D24A272C156A0066B3F1 /* CryptoListViewConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D249272C156A0066B3F1 /* CryptoListViewConfigurator.swift */; };
 		E3C5A3D6272D471B00C447A5 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A3D5272D471B00C447A5 /* Double+Extensions.swift */; };
+		E3C5A3DC272D4E5900C447A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C5A3DB272D4E5900C447A5 /* Assets.xcassets */; };
+		E3C5A3E2272D4E5A00C447A5 /* CryptoTickerWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E3C5A3E1272D4E5A00C447A5 /* CryptoTickerWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3C5A3E7272D4E5A00C447A5 /* CryptoTickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A3E6272D4E5A00C447A5 /* CryptoTickerApp.swift */; };
+		E3C5A3E9272D4E5A00C447A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A3E8272D4E5A00C447A5 /* ContentView.swift */; };
+		E3C5A3EB272D4E5A00C447A5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A3EA272D4E5A00C447A5 /* NotificationController.swift */; };
+		E3C5A3ED272D4E5A00C447A5 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A3EC272D4E5A00C447A5 /* NotificationView.swift */; };
+		E3C5A3EF272D4E5A00C447A5 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A3EE272D4E5A00C447A5 /* ComplicationController.swift */; };
+		E3C5A3F1272D4E5B00C447A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C5A3F0272D4E5B00C447A5 /* Assets.xcassets */; };
+		E3C5A3F4272D4E5B00C447A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C5A3F3272D4E5B00C447A5 /* Preview Assets.xcassets */; };
+		E3C5A3F9272D4E5B00C447A5 /* CryptoTickerWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E3C5A3D9272D4E5700C447A5 /* CryptoTickerWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3C5A403272D6C2000C447A5 /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A402272D6C2000C447A5 /* PhoneViewModel.swift */; };
+		E3C5A405272D97B300C447A5 /* WatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A404272D97B300C447A5 /* WatchViewModel.swift */; };
+		E3C5A407272E8E9A00C447A5 /* CryptoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D23C272BF6000066B3F1 /* CryptoList.swift */; };
+		E3C5A408272E8E9D00C447A5 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D23E272BF63F0066B3F1 /* Crypto.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3C5A3E3272D4E5A00C447A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E385D217272BE1BF0066B3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C5A3E0272D4E5A00C447A5;
+			remoteInfo = "CryptoTickerWatch WatchKit Extension";
+		};
+		E3C5A3F7272D4E5B00C447A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E385D217272BE1BF0066B3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C5A3D8272D4E5700C447A5;
+			remoteInfo = CryptoTickerWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E3C5A3FD272D4E5B00C447A5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E3C5A3E2272D4E5A00C447A5 /* CryptoTickerWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C5A401272D4E5B00C447A5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E3C5A3F9272D4E5B00C447A5 /* CryptoTickerWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E385D21F272BE1C00066B3F1 /* CryptoTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,10 +95,31 @@
 		E385D247272C03B10066B3F1 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
 		E385D249272C156A0066B3F1 /* CryptoListViewConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewConfigurator.swift; sourceTree = "<group>"; };
 		E3C5A3D5272D471B00C447A5 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		E3C5A3D9272D4E5700C447A5 /* CryptoTickerWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTickerWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C5A3DB272D4E5900C447A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3C5A3E1272D4E5A00C447A5 /* CryptoTickerWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CryptoTickerWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C5A3E6272D4E5A00C447A5 /* CryptoTickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTickerApp.swift; sourceTree = "<group>"; };
+		E3C5A3E8272D4E5A00C447A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3C5A3EA272D4E5A00C447A5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E3C5A3EC272D4E5A00C447A5 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		E3C5A3EE272D4E5A00C447A5 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		E3C5A3F0272D4E5B00C447A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3C5A3F3272D4E5B00C447A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3C5A3F5272D4E5B00C447A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C5A3F6272D4E5B00C447A5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		E3C5A402272D6C2000C447A5 /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
+		E3C5A404272D97B300C447A5 /* WatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E385D21C272BE1BF0066B3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C5A3DE272D4E5A00C447A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				E385D221272BE1C00066B3F1 /* CryptoTicker */,
+				E3C5A3DA272D4E5800C447A5 /* CryptoTickerWatch */,
+				E3C5A3E5272D4E5A00C447A5 /* CryptoTickerWatch WatchKit Extension */,
 				E385D220272BE1C00066B3F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				E385D21F272BE1C00066B3F1 /* CryptoTicker.app */,
+				E3C5A3D9272D4E5700C447A5 /* CryptoTickerWatch.app */,
+				E3C5A3E1272D4E5A00C447A5 /* CryptoTickerWatch WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +237,7 @@
 		E385D245272BFFC30066B3F1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E3C5A402272D6C2000C447A5 /* PhoneViewModel.swift */,
 				E385D247272C03B10066B3F1 /* CryptoViewModel.swift */,
 			);
 			path = ViewModels;
@@ -177,6 +259,39 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		E3C5A3DA272D4E5800C447A5 /* CryptoTickerWatch */ = {
+			isa = PBXGroup;
+			children = (
+				E3C5A3DB272D4E5900C447A5 /* Assets.xcassets */,
+			);
+			path = CryptoTickerWatch;
+			sourceTree = "<group>";
+		};
+		E3C5A3E5272D4E5A00C447A5 /* CryptoTickerWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E3C5A3E6272D4E5A00C447A5 /* CryptoTickerApp.swift */,
+				E3C5A3E8272D4E5A00C447A5 /* ContentView.swift */,
+				E3C5A3EA272D4E5A00C447A5 /* NotificationController.swift */,
+				E3C5A3EC272D4E5A00C447A5 /* NotificationView.swift */,
+				E3C5A3EE272D4E5A00C447A5 /* ComplicationController.swift */,
+				E3C5A404272D97B300C447A5 /* WatchViewModel.swift */,
+				E3C5A3F0272D4E5B00C447A5 /* Assets.xcassets */,
+				E3C5A3F5272D4E5B00C447A5 /* Info.plist */,
+				E3C5A3F6272D4E5B00C447A5 /* PushNotificationPayload.apns */,
+				E3C5A3F2272D4E5B00C447A5 /* Preview Content */,
+			);
+			path = "CryptoTickerWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E3C5A3F2272D4E5B00C447A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E3C5A3F3272D4E5B00C447A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,15 +302,51 @@
 				E385D21B272BE1BF0066B3F1 /* Sources */,
 				E385D21C272BE1BF0066B3F1 /* Frameworks */,
 				E385D21D272BE1BF0066B3F1 /* Resources */,
+				E3C5A401272D4E5B00C447A5 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E3C5A3F8272D4E5B00C447A5 /* PBXTargetDependency */,
 			);
 			name = CryptoTicker;
 			productName = CryptoTicker;
 			productReference = E385D21F272BE1C00066B3F1 /* CryptoTicker.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E3C5A3D8272D4E5700C447A5 /* CryptoTickerWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C5A3FE272D4E5B00C447A5 /* Build configuration list for PBXNativeTarget "CryptoTickerWatch" */;
+			buildPhases = (
+				E3C5A3D7272D4E5700C447A5 /* Resources */,
+				E3C5A3FD272D4E5B00C447A5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3C5A3E4272D4E5A00C447A5 /* PBXTargetDependency */,
+			);
+			name = CryptoTickerWatch;
+			productName = CryptoTickerWatch;
+			productReference = E3C5A3D9272D4E5700C447A5 /* CryptoTickerWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E3C5A3E0272D4E5A00C447A5 /* CryptoTickerWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C5A3FA272D4E5B00C447A5 /* Build configuration list for PBXNativeTarget "CryptoTickerWatch WatchKit Extension" */;
+			buildPhases = (
+				E3C5A3DD272D4E5A00C447A5 /* Sources */,
+				E3C5A3DE272D4E5A00C447A5 /* Frameworks */,
+				E3C5A3DF272D4E5A00C447A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoTickerWatch WatchKit Extension";
+			productName = "CryptoTickerWatch WatchKit Extension";
+			productReference = E3C5A3E1272D4E5A00C447A5 /* CryptoTickerWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,6 +359,12 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					E385D21E272BE1BF0066B3F1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E3C5A3D8272D4E5700C447A5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E3C5A3E0272D4E5A00C447A5 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -226,6 +383,8 @@
 			projectRoot = "";
 			targets = (
 				E385D21E272BE1BF0066B3F1 /* CryptoTicker */,
+				E3C5A3D8272D4E5700C447A5 /* CryptoTickerWatch */,
+				E3C5A3E0272D4E5A00C447A5 /* CryptoTickerWatch WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +396,23 @@
 			files = (
 				E385D22A272BE1C40066B3F1 /* Preview Assets.xcassets in Resources */,
 				E385D227272BE1C40066B3F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C5A3D7272D4E5700C447A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C5A3DC272D4E5900C447A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C5A3DF272D4E5A00C447A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C5A3F4272D4E5B00C447A5 /* Preview Assets.xcassets in Resources */,
+				E3C5A3F1272D4E5B00C447A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +428,7 @@
 				E385D23D272BF6000066B3F1 /* CryptoList.swift in Sources */,
 				E385D237272BF3410066B3F1 /* Endpoint+URL.swift in Sources */,
 				E385D225272BE1C00066B3F1 /* MainView.swift in Sources */,
+				E3C5A403272D6C2000C447A5 /* PhoneViewModel.swift in Sources */,
 				E385D239272BF4DB0066B3F1 /* Endpoint+CMC.swift in Sources */,
 				E385D235272BF1A30066B3F1 /* NetworkerProtocol.swift in Sources */,
 				E385D231272BF1250066B3F1 /* Endpoint.swift in Sources */,
@@ -262,7 +439,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3C5A3DD272D4E5A00C447A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C5A408272E8E9D00C447A5 /* Crypto.swift in Sources */,
+				E3C5A407272E8E9A00C447A5 /* CryptoList.swift in Sources */,
+				E3C5A3EB272D4E5A00C447A5 /* NotificationController.swift in Sources */,
+				E3C5A3E9272D4E5A00C447A5 /* ContentView.swift in Sources */,
+				E3C5A405272D97B300C447A5 /* WatchViewModel.swift in Sources */,
+				E3C5A3EF272D4E5A00C447A5 /* ComplicationController.swift in Sources */,
+				E3C5A3E7272D4E5A00C447A5 /* CryptoTickerApp.swift in Sources */,
+				E3C5A3ED272D4E5A00C447A5 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3C5A3E4272D4E5A00C447A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C5A3E0272D4E5A00C447A5 /* CryptoTickerWatch WatchKit Extension */;
+			targetProxy = E3C5A3E3272D4E5A00C447A5 /* PBXContainerItemProxy */;
+		};
+		E3C5A3F8272D4E5B00C447A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C5A3D8272D4E5700C447A5 /* CryptoTickerWatch */;
+			targetProxy = E3C5A3F7272D4E5B00C447A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E385D22B272BE1C40066B3F1 /* Debug */ = {
@@ -439,6 +644,120 @@
 			};
 			name = Release;
 		};
+		E3C5A3FB272D4E5B00C447A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoTickerWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = H55V68K4TY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CryptoTickerWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CryptoTickerWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvanrujoiu.CryptoTicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		E3C5A3FC272D4E5B00C447A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoTickerWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = H55V68K4TY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CryptoTickerWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CryptoTickerWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvanrujoiu.CryptoTicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		E3C5A3FF272D4E5B00C447A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H55V68K4TY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CryptoTickerWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoTickerWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.razvanrujoiu.CryptoTicker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvanrujoiu.CryptoTicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		E3C5A400272D4E5B00C447A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H55V68K4TY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CryptoTickerWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoTickerWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.razvanrujoiu.CryptoTicker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvanrujoiu.CryptoTicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -456,6 +775,24 @@
 			buildConfigurations = (
 				E385D22E272BE1C40066B3F1 /* Debug */,
 				E385D22F272BE1C40066B3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C5A3FA272D4E5B00C447A5 /* Build configuration list for PBXNativeTarget "CryptoTickerWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C5A3FB272D4E5B00C447A5 /* Debug */,
+				E3C5A3FC272D4E5B00C447A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C5A3FE272D4E5B00C447A5 /* Build configuration list for PBXNativeTarget "CryptoTickerWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C5A3FF272D4E5B00C447A5 /* Debug */,
+				E3C5A400272D4E5B00C447A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
