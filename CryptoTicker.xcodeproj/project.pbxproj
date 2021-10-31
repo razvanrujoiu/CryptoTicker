@@ -31,7 +31,7 @@
 		E3C5A3F1272D4E5B00C447A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C5A3F0272D4E5B00C447A5 /* Assets.xcassets */; };
 		E3C5A3F4272D4E5B00C447A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C5A3F3272D4E5B00C447A5 /* Preview Assets.xcassets */; };
 		E3C5A3F9272D4E5B00C447A5 /* CryptoTickerWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E3C5A3D9272D4E5700C447A5 /* CryptoTickerWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		E3C5A403272D6C2000C447A5 /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A402272D6C2000C447A5 /* PhoneViewModel.swift */; };
+		E3C5A403272D6C2000C447A5 /* WatchKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A402272D6C2000C447A5 /* WatchKitViewModel.swift */; };
 		E3C5A405272D97B300C447A5 /* WatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C5A404272D97B300C447A5 /* WatchViewModel.swift */; };
 		E3C5A407272E8E9A00C447A5 /* CryptoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D23C272BF6000066B3F1 /* CryptoList.swift */; };
 		E3C5A408272E8E9D00C447A5 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D23E272BF63F0066B3F1 /* Crypto.swift */; };
@@ -107,7 +107,7 @@
 		E3C5A3F3272D4E5B00C447A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E3C5A3F5272D4E5B00C447A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3C5A3F6272D4E5B00C447A5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		E3C5A402272D6C2000C447A5 /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
+		E3C5A402272D6C2000C447A5 /* WatchKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchKitViewModel.swift; sourceTree = "<group>"; };
 		E3C5A404272D97B300C447A5 /* WatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -237,7 +237,7 @@
 		E385D245272BFFC30066B3F1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				E3C5A402272D6C2000C447A5 /* PhoneViewModel.swift */,
+				E3C5A402272D6C2000C447A5 /* WatchKitViewModel.swift */,
 				E385D247272C03B10066B3F1 /* CryptoViewModel.swift */,
 			);
 			path = ViewModels;
@@ -428,7 +428,7 @@
 				E385D23D272BF6000066B3F1 /* CryptoList.swift in Sources */,
 				E385D237272BF3410066B3F1 /* Endpoint+URL.swift in Sources */,
 				E385D225272BE1C00066B3F1 /* MainView.swift in Sources */,
-				E3C5A403272D6C2000C447A5 /* PhoneViewModel.swift in Sources */,
+				E3C5A403272D6C2000C447A5 /* WatchKitViewModel.swift in Sources */,
 				E385D239272BF4DB0066B3F1 /* Endpoint+CMC.swift in Sources */,
 				E385D235272BF1A30066B3F1 /* NetworkerProtocol.swift in Sources */,
 				E385D231272BF1250066B3F1 /* Endpoint.swift in Sources */,

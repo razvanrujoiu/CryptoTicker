@@ -12,11 +12,15 @@ struct ContentView: View {
     @ObservedObject var watchViewModel = WatchViewModel()
     
     var body: some View {
-        List(watchViewModel.cryptoList!.data) { crypto in
-            VStack {
-                Text(crypto.name)
-            }
+        VStack {
+            Text("Test: \(watchViewModel.fromUserInfoTransfer)")
+            Text(self.watchViewModel.fromUserInfoTransfer)
         }
+//        List(watchViewModel.cryptoList!.data) { crypto in
+//            VStack {
+//                Text(crypto.name)
+//            }
+//        }
     }
 }
 
